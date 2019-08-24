@@ -3,7 +3,7 @@ def hello(array)
   i = 0
   collection = []
   while i < array.length
-    cyield(array[i])
+    collection << yield(array[i])
     i += 1
   end
 end
